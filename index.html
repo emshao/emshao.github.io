@@ -1,49 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Emily's Website</title>
-        <link rel="stylesheet" href="website-style.css">
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="#home" id="nav-logo">eshao</a>
-                <div class="tabs" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a href="#home" class="navbar-link" id="home-page">Home</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#home" class="navbar-link" id="about-page">About</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#home" class="navbar-link" id="projects-page">Projects</a>
-                    </li>
-                    <li class="navbar-button">
-                        <a href="#home" class="button" id="contact-page">Contact</a>
-                    </li>
-                </ul>
+<head>
+    <!--Adapted from briancodex youtube video-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily Shao Website</title>
+    <link rel="stylesheet" href="website-style.css" />
+<!--    <link-->
+<!--            rel="stylesheet"-->
+<!--            href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"-->
+<!--            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"-->
+<!--            crossorigin="anonymous"-->
+<!--    />-->
+</head>
+<body>
+<!-- Navbar Section -->
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="#" id="navbar-logo">MyLogo</a>
+        <div class="navbar-icon" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a href="#" class="navbar-link" id="home-page">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#about" class="navbar-link" id="about-page">About</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#services" class="navbar-link" id="services-page">Projects</a>
+            </li>
+            <li class="navbar-button">
+                <a href="#contactp" class="button" id="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<!-- Front Page Section -->
+<div class="front" id="home">
+    <div class="front-container">
+        <div class="front-content">
+            <h1 class="front-heading"><span>Emily Shao</span></h1>
+            <p class="front-description">Welcome to my website!</p>
+            <button class="home-button"><a href="#">Explore</a></button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- About Section -->
+<div class="second" id="about">
+    <div class="about-container">
+        <div class="headshot-container">
+            <div class="headshot-card">
+                <i class="fas fa-layer-group"></i>
             </div>
-        </nav>
-        <section>
-            <div class="main-body">
-                <div class="main-container">
-                    <div class="left-col">
-                        <h1>Welcome! Take a Look Around!</h1>
-                        <p>Hi, my name is Emily Shao, and this is my personal website.</p>
-                        <button>Get Started</button>
-                    </div>
-                    <div class="right-col">
-                        <p>Image here.</p>
-                    </div>
-                </div>
+        </div>
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>Duke University Undergraduate</p>
+            <p>Computer Science + Computer Engineering Major</p>
+            <p>Software Engineering Intern @ ABB</p>
+            <p>Wanderlust | Videography | Computer Vision</p>
+            <button class="home-button"><a href="#">Learn More</a></button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Services Section -->
+<div class="services" id="services">
+    <h1>Projects</h1>
+    <div class="services__wrapper">
+        <div class="services__card">
+            <h2>Jobs/Internships</h2>
+            <p>Caterpillar, RLI, ABB, Duke</p>
+            <div class="services__btn"><button>More</button></div>
+        </div>
+        <div class="services__card">
+            <h2>Research</h2>
+            <p>CS, CompE, Bio, BioMedical</p>
+            <div class="services__btn"><button>More</button></div>
+        </div>
+        <div class="services__card">
+            <h2>CS Projects</h2>
+            <p>Games, Scripts, Websites</p>
+            <div class="services__btn"><button>More</button></div>
+        </div>
+        <div class="services__card">
+            <h2>Fun Projects :)</h2>
+            <p>Travels, Videos, Volleyball</p>
+            <div class="services__btn"><button>More</button></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--&lt;!&ndash; Contacts Section &ndash;&gt;-->
+<!--<div class="second" id="contactp">-->
+<!--    <div class="about-container">-->
+<!--        <div class="about-content">-->
+<!--            <h1>Join Our Team</h1>-->
+<!--            <h2>Sign Up Today</h2>-->
+<!--            <p>See what makes us different</p>-->
+<!--            <button class="home-button"><a href="#">Sign Up</a></button>-->
+<!--        </div>-->
+<!--        <div class="headshot-container">-->
+<!--            <div class="headshot-card" id="card-2">-->
+<!--                <i class="fas fa-users"></i>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+
+
+
+
+
+
+<!-- Footer Section -->
+<div class="footer__container">
+    <section class="social__media">
+        <div class="social__media--wrap">
+            <p class="website__rights">© COLOR 2020. All rights reserved</p>
+            <div class="social__icons">
+                <a href="/" class="social__icon--link" target="_blank"
+                ><i class="fab fa-facebook"></i
+                ></a>
+                <a href="/" class="social__icon--link"
+                ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="/" class="social__icon--link"
+                ><i class="fab fa-youtube"></i
+                ></a>
+                <a href="/" class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="/" class="social__icon--link"
+                ><i class="fab fa-twitter"></i
+                ></a>
             </div>
-        </section>
-    </body>
+        </div>
+    </section>
+</div>
+
+<script src="app.js"></script>
+</body>
 </html>
