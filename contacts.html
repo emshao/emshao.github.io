@@ -3,40 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
-  <link rel="stylesheet" href="website-style.css" />
+    <link rel="stylesheet" href="project-style.css" />
+    <link rel="stylesheet" href="nav-style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 
 
-<!-- Navbar Section -->
-<nav class="navbar">
-  <div class="navbar-container">
-    <a href="index.html" id="navbar-logo">MyLogo</a>
-    <div class="navbar-icon" id="mobile-menu">
-      <span class="bar"></span> <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-    <ul class="navbar-menu">
-      <li class="navbar-item">
-        <a href="index.html" class="navbar-link" id="home-page">Home</a>
-      </li>
-      <li class="navbar-item">
-        <a href="about.html" class="navbar-link" id="about-page">About</a>
-      </li>
-      <li class="navbar-item">
-        <a href="projects.html" class="navbar-link" id="services-page">Projects</a>
-      </li>
-      <li class="navbar-button">
-        <a href="contacts.html" class="button" id="contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<div id="nav-placeholder"></div>
+
+<script>
+  $(function(){
+    $("#nav-placeholder").load("navbar.html");
+  });
+</script>
 
 
-
-<div class="trial">
-  <p>contact page</p>
+<div class="contact-container">
+    <img src="linkedin.png" alt="linkedin logo">
+    <img src="github.png" alt="github logo">
+    <img src="mail.png" alt="email logo">
+    <img src="resume.png" alt="resume logo">
 </div>
 
 
