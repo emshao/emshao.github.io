@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Fun Projects</title>
+    <link rel="stylesheet" href="website-style.css" />
+    <link rel="stylesheet" href="nav-style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+
+<div id="nav-placeholder"></div>
+
+<script>
+    $(function(){
+        $("#nav-placeholder").load("navbar.html");
+    });
+</script>
 
 <div class="funprojects">
   <h1>fun projects page</h1>

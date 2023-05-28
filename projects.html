@@ -2,40 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Projects!</title>
-  <link rel="stylesheet" href="website-style.css" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="website-style.css" />
+    <link rel="stylesheet" href="nav-style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 
-<!-- Navbar Section -->
-<nav class="navbar">
-  <div class="navbar-container">
-    <a href="index.html" id="navbar-logo">MyLogo</a>
-    <div class="navbar-icon" id="mobile-menu">
-      <span class="bar"></span> <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-    <ul class="navbar-menu">
-      <li class="navbar-item">
-        <a href="index.html" class="navbar-link" id="home-page">Home</a>
-      </li>
-      <li class="navbar-item">
-        <a href="about.html" class="navbar-link" id="about-page">About</a>
-      </li>
-      <li class="navbar-item">
-        <a href="" class="navbar-link" id="services-page">Projects</a>
-      </li>
-      <li class="navbar-button">
-        <a href="contacts.html" class="button" id="contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<div id="nav-placeholder"></div>
+
+<script>
+  $(function(){
+    $("#nav-placeholder").load("navbar.html");
+  });
+</script>
 
 
 
 <div class="trial">
-  <p>projects page</p>
+  <h1>projects home page</h1>
+  <p>internships</p>
+  <p>research</p>
+  <p>coding projects</p>
+  <p>fun projects</p>
 </div>
 
 
