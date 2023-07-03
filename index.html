@@ -1,139 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!--Adapted from briancodex youtube video-->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Emily Shao</title>
-    <link rel="stylesheet" href="nav-style.css" />
-    <link rel="stylesheet" href="website-style.css" />
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Emily Shao</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Emily Shao</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="projects.html">Projects</a>
+						<a href="contacts.html">Contact</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
+		<!-- Banner -->
+			<section id="banner" style='background-image: url("images/main-background.jpg");'>
+				<div class="inner">
+					<h1>Hello & Welcome</h1>
+					<h2>Photo taken — Myrtle Beach, South Carolina</h2>
+					<ul class="actions">
+						<li><a href="#one" class="button alt">Learn More</a></li>
+					</ul>
+				</div>
+			</section>
 
+		<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<div class="image-content">
+						<img src="images/portraitt.jpg" alt="Headshot" class="right-image">
+					</div>
+					<div>
+						<header>
+							<h2>Software & Computer Engineer</h2>
+						</header>
+						<p>I am a junior at Duke University studying Computer Science and Electrical/Computer Engineering. I am interested in data processing and machine learning used within tech products or computation. On campus, I am involved in ultrasound and deep learning research, Engineering Student Government as Treasurer, and the Society of Women Engineers. I am a 2023 Duke Technology Scholar. In my free time, I love playing volleyball, listening to music, and traveling with my DJI Mini 2 Drone (hoping to get the Mini 3 soon!). </p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
+		<!-- Two -->
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3>Recent Projects</h3>
+							</header>
+							<div class="image fit">
+								<img src="images/pic01.jpg" alt="" />
+							</div>
+							<p>My projects consists of a mix of software development, model design, and hardware interfacing.<br><i>[Upcoming: FashionMNIST Model]</i></p>
+							<ul class="actions">
+								<li><a href="projects.html" class="button alt">Learn More</a></li>
+							</ul>
+						</div>
+					</article>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3>Recent Travels</h3>
+							</header>
+							<div class="image fit">
+								<img src="images/pic02.jpg" alt="" />
+							</div>
+							<p>I have been an avid wanderlust and love to document my experiences traveling around the United States and abroad.<br><i>[Upcoming: Madrid, Spain]</i></p>
+							<ul class="actions">
+								<li><a href="#two" class="button alt">Coming Soon</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
 
-<!-- Navbar Section -->
-<nav class="navbar">
-    <div class="navbar-container">
-        <a href="#" id="navbar-logo">ES</a>
-        <div class="navbar-icon" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <ul class="navbar-menu">
-            <li class="navbar-item">
-                <a href="#" class="navbar-link" id="home-page">Home</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#about" class="navbar-link" id="about-page">About</a>
-            </li>
-            <li class="navbar-item">
-                <a href="#projects" class="navbar-link" id="projects-page">Projects</a>
-            </li>
-            <li class="navbar-button">
-                <a href="contacts.html" class="button" id="contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+		<!-- Three -->
+			<section id="three">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<!-- <span class="icon fa-laptop"></span> -->
+							<header>
+								<h3>My Background</h3>
+							</header>
+							<p>I grew up in the suburbs of Chicago in a mechanical engineering family, but I wanted to explore the coasts as college started. I've always had an interest in data and optics, but now I am exploring the power of incorporating technology. </p>
+						</div>
+					</article>
+					<article>
+						<div class="content">
+							<!-- <span class="icon fa-diamond"></span> -->
+							<header>
+								<h3>My Career Path</h3>
+							</header>
+							<p>Through my research and internships, I've dabbled in data analystics, software development, and modeling. These past experiences have made me realize that I want to dive deeper into data processing and information extraction. </p>
+						</div>
+					</article>
+					<article>
+					<div class="content">
+							<!-- <span class="icon fa-plane"></span> -->
+							<header>
+								<h3>My Hobbies</h3>
+							</header>
+							<p>Outside of software engineering and technology, I've recently loved biking and going to summer festivals. But by my hidden introverted self, I also enjoy watching Netflix and Marvel movies on my bed with my cat Thompson.</p>
+						</div>
+					</article>
+				</div>
+			</section>
 
+		<!-- Footer
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>Get in Touch</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="alt" /></li>
+						</ul>
+					</form>
+				</div>
+			</section> -->
 
+		<div class="copyright">
+			Copyright © 2023 Emily Shao — Powered by: <a href="https://templated.co/">Templated</a>.
+		</div>
 
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-
-
-<!-- Front Page Section -->
-<div class="front" id="home">
-    <div class="front-container">
-        <div class="front-content">
-            <h1 class="front-heading"><span>Emily Shao</span></h1>
-            <p class="front-description">Software & Electrical/Computer Engineer</p>
-            <button class="more-button"><a href="#about">Explore</a></button>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-<!-- About Section -->
-<div class="second" id="about">
-    <div class="about-container">
-        <div class="headshot-container">
-            <div class="headshot-card">
-                <i class="fas fa-layer-group"></i>
-                <img src="portraitt.jpg" alt="Portrait Photo">
-            </div>
-        </div>
-        <div class="about-content">
-            <h1>About Me</h1>
-            <p>Duke University Undergraduate</p>
-            <p>Computer Science + Computer Engineering Major</p>
-            <p>Software Engineering Intern @ ABB</p>
-            <p>Wanderlust | Videography | Software Integration </p>
-            <button class="more-button"><a href="about.html">Learn More</a></button>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-<!-- Projects Section -->
-<div class="projects" id="projects">
-    <h1>Projects</h1>
-    <div class="projects-container">
-        <div class="projects-card">
-            <h2>Jobs/Internships</h2>
-            <p>Caterpillar, RLI, ABB, Duke</p>
-<!--            <div class="projects-button">-->
-<!--                <button><a href="internships.html">More</a></button>-->
-<!--            </div>-->
-        </div>
-        <div class="projects-card">
-            <h2>Research</h2>
-            <p>CS, CompE, Bio, BioMedical</p>
-<!--            <div class="projects-button">-->
-<!--                <button><a href="research.html">More</a></button>-->
-<!--            </div>-->
-        </div>
-        <div class="projects-card">
-            <h2>CS Projects</h2>
-            <p>Games, Scripts, Websites</p>
-<!--            <div class="projects-button">-->
-<!--                <button><a href="csprojects.html">More</a></button>-->
-<!--            </div>-->
-        </div>
-        <div class="projects-card">
-            <h2>Fun Projects :)</h2>
-            <p>Travels, Videos, Volleyball</p>
-<!--            <div class="projects-button">-->
-<!--                <button><a href="funprojects.html">More</a></button>-->
-<!--            </div>-->
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-<script src="app.js"></script>
-</body>
+	</body>
 </html>

@@ -1,57 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Projects</title>
-    <link rel="stylesheet" href="website-style.css" />
-    <link rel="stylesheet" href="nav-style.css" />
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-</head>
-<body>
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>ES Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-<div id="nav-placeholder"></div>
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Emily Shao</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="projects.html">Projects</a>
+						<a href="contacts.html">Contact</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-<script>
-  $(function(){
-    $("#nav-placeholder").load("navbar.html");
-  });
-</script>
+		<!-- Banner -->
+			<section id="banner" style='background-image: url("images/robot-background.jpg");'>
+				<div class="inner">
+					<h1>Projects</h1>
+					<h2>Photo taken — Combat Robotics: WaffleBot</h2>
+					<ul class="actions">
+						<li><a href="#one" class="button alt">Learn More</a></li>
+					</ul>
+				</div>
+			</section>
 
+		<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<div class="image-content">
+						<img src="images/fashion-mnist.png" alt="Headshot" class="project-image">
+					</div>
+					<div>
+						<header>
+							<h2>FashionMNIST Model</h2>
+						</header>
+						<p>[Active Project] Training a simple neural network model to recognize different articles of clothing. Plan for Summer 2023 is to expand this to real time video processing with an Arduino camera.</p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">Coming Soon</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+            <section id="one" style="background-color: #f3f3f3">
+				<div class="inner">
+					<div class="image-content">
+						<img src="images/cardgame.png" alt="Headshot" class="project-image">
+					</div>
+					<div>
+						<header>
+							<h2>Card Game Maker</h2>
+						</header>
+						<p>[Spring 2023] Collaboration project of a card game maker and card game player built from scratch in JavaFX. I worked on features including dynamic game maker logic to accomodate user-created card game rules, home screens to link the game maker and runner, and login capabilities linked to Google Firebase.</p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+            <section id="one">
+				<div class="inner">
+					<div class="image-content">
+						<img src="images/coro.jpg" alt="Headshot" class="project-image">
+					</div>
+					<div>
+						<header>
+							<h2>Combat Robotics</h2>
+						</header>
+						<p>[Spring/Fall 2022] Competed in a just-for-fun mini battlebots competition in which my two teammates and I built a one-pound RC-controlled robot with holonomic drive. I work on features including reading in and analyzing data from an IMU to integrate field-oriented driving, implementing PID loops to control auto adjustment, and programming basic Kiwi Drive.</p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+            <section id="one" style="background-color: #f3f3f3">
+				<div class="inner">
+					<div class="image-content">
+						<img src="images/ece110.jpg" alt="Headshot" class="project-image">
+					</div>
+					<div>
+						<header>
+							<h2>Color Detection Robot</h2>
+						</header>
+						<p>[Spring 2022] I am a junior at Duke University studying Computer Science and Electrical/Computer Engineering. I am interested in data processing and machine learning used within tech products or computation. On campus, I am involved in ultrasound and deep learning research, Engineering Student Government as Treasurer, and the Society of Women Engineers. I am a 2023 Duke Technology Scholar. In my free time, I love playing volleyball, listening to music, and traveling with my DJI Mini 2 Drone (hoping to get the Mini 3 soon!). </p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="one">
+				<div class="inner">
+					<div class="image-content">
+						<img src="images/autocomplete.png" alt="Headshot" class="project-image">
+					</div>
+					<div>
+						<header>
+							<h2>Autocompletion Simulation</h2>
+						</header>
+						<p>[Fall 2021] Beginner coding project within framework to create autocomplete search algorithms. Learned about how binary search can be implemented to provide much faster search results.</p>
+						<ul class="actions">
+							<li><a href="#" class="button alt">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
-<!-- Projects Section -->
-<div class="projects" id="projects" style="padding: 3rem 0 10rem 0;">
-    <h1>Projects</h1>
-    <div class="projects-container">
-        <div class="projects-card">
-            <h2>Jobs/Internships</h2>
-            <p>Caterpillar, RLI, ABB, Duke</p>
-            <div class="projects-button">
-                <button><a href="internships.html">More</a></button>
-            </div>
-        </div>
-        <div class="projects-card">
-            <h2>Research</h2>
-            <p>CS, CompE, Bio, BioMedical</p>
-            <div class="projects-button">
-                <button><a href="research.html">More</a></button>
-            </div>
-        </div>
-        <div class="projects-card">
-            <h2>CS Projects</h2>
-            <p>Games, Scripts, Websites</p>
-            <div class="projects-button">
-                <button><a href="csprojects.html">More</a></button>
-            </div>
-        </div>
-        <div class="projects-card">
-            <h2>Fun Projects :)</h2>
-            <p>Travels, Videos, Volleyball</p>
-            <div class="projects-button">
-                <button><a href="funprojects.html">More</a></button>
-            </div>
-        </div>
-    </div>
-</div>
+		<div class="copyright">
+			Copyright © 2023 Emily Shao — Powered by: <a href="https://templated.co/">Templated</a>.
+		</div>
 
-</body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
